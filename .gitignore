@@ -1,0 +1,56 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+.env/
+.env.*
+!.env.example
+
+# ===============================
+# FastAPI / Uvicorn
+# ===============================
+*.log
+
+# ===============================
+# Node / React / Vite
+# ===============================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ===============================
+# OS Files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# IDE / Editor
+# ===============================
+.vscode/
+.idea/
+*.swp
+
+# ===============================
+# Database
+# ===============================
+*.sqlite3
+*.db
+
+# ===============================
+# Docker
+# ===============================
+docker-compose.override.yml
